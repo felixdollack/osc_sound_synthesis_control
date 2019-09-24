@@ -3,9 +3,7 @@
   <header> <!-- the header is optional -->
     <name>Counter Clockwise Circle Guidance</name>
     <description>
-      The scene is composed of one noise sound source and
-      three landmarks. The landmarks are sounds of a Cicada,
-      a Piano and a male German talker.
+      The scene is composed of one noise sound source.
       The scene is ment to be reproduced with the binaural renderer.
     </description>
   </header>
@@ -17,21 +15,6 @@
     <source name="Target">
       <file>/Users/felixdollack/Documents/anticipation/signals/noise.wav</file>
       <position x="0.0" y="0.5"/>
-    </source>
-
-    <source name="Cicada">
-      <file>/Users/felixdollack/Documents/anticipation/signals/cicada.wav</file>
-      <position x="-3.48" y="1"/>
-    </source>
-
-    <source name="Piano">
-      <file>/Users/felixdollack/Documents/anticipation/signals/piano.wav</file>
-      <position x="0" y="1"/>
-    </source>
-
-    <source name="Speech">
-      <file>/Users/felixdollack/Documents/anticipation/signals/speech.wav</file>
-      <position x="-1.74" y="-2"/>
     </source>
   </scene_setup>
 </asdf>
